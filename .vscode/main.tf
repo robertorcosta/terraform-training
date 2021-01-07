@@ -24,7 +24,6 @@ resource "aws_security_group" "acesso-ssh" {
         protocol    = "tcp"
         cidr_blocks = ["189.124.19.34/32"]
     }
-
     tags = {
         Name = "ssh"
     }

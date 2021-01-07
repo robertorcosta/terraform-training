@@ -9,7 +9,7 @@ resource "aws_instance" "dev" {
   instance_type = "t2.micro"
   key_name = "terraform-aws"
   tags = {
-      Name = "dev${count.index}"
+      Name = "dev$ {count.index}"
   }
   vpc_security_group_ids = [ "sg-0a1bbce822171e81d" ]
 }

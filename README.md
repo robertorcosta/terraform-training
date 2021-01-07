@@ -1,2 +1,2 @@
 # terraform-training
- Curso realizado na Alura
+ Curso realizado na Alura!
